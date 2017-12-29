@@ -1,6 +1,8 @@
 # iotanode-syncrestart
 Simple node.js script to restart iota node if it falls out of sync. Must be run on same machine as node.
 
+Make sure to run npm install to install dependencies
+
 TIPS:
 
 Run this every 5 minutes in cron as root user (or whatever user can control IRI)

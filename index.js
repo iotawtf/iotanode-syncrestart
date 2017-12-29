@@ -22,7 +22,7 @@ iota.api.getNodeInfo(function(error, success){
 		if(success.latestSolidSubtangleMilestoneIndex < success.latestMilestoneIndex - threshold){
 				console.log('Node is out of sync!!!')
 				restartIRI()
-			} else if(success.latestMilestoneInxed == resyncing_milestone) {
+			} else if(success.latestMilestoneIndex == resyncing_milestone) {
 				console.log('Node is resyncing')
 			} else {
 				console.log('Node seems OK')

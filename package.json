@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "iota.lib.js": "^0.4.6"
+    "dateformat": "^3.0.2",
+    "iota.lib.js": "^0.4.6",
+    "minimist": "^1.2.0"
   }
 }

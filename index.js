@@ -20,7 +20,7 @@ const host = argv.h ? argv.h : '127.0.0.1'
 const port = argv.p ? argv.p : 14625
 
 const resyncing_milestone = 243000
-const restart_iri_command = argv.c ? arv.c : "service iota restart"
+const restart_iri_command = argv.c ? arv.c : "/bin/systemctl restart iota"
 
 var iota = new IOTA({host:protocol + '://'+ host,port:port})
 
